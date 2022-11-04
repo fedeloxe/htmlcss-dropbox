@@ -14,6 +14,7 @@ header .container{
     z-index: 1;
     position:fixed;
     background-color: white;
+    font-size: 1vw;
 }
 
 header ul{
@@ -72,6 +73,21 @@ header li{
     font-size: 3vw;
 }
 
+/*section1 price plan*/
+
+.price .container{
+    width: 60%;
+    margin: 200px auto;
+}
+
+.price h2{
+    font-size: 2vw;
+    margin-bottom: 50px;
+}
+
+label{
+    margin-right: 20px;
+}
 
 
 /*attribute*/
