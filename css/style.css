@@ -78,13 +78,13 @@ header li{
 /*section1 price plan*/
 
 .price .container{
-    margin: 200px auto;
+    margin: 10vw auto;
     font-size: 1vw;
 }
 
 .price h2{
     font-size: 2vw;
-    margin-bottom: 50px;
+    margin-bottom: 5vw;
 }
 
 label{
@@ -92,7 +92,7 @@ label{
 }
 
 .price h3{
-    padding-bottom: 20px;
+    padding-bottom: 2vw;
     font-size: 1.5vw;
 }
 
@@ -107,7 +107,7 @@ label{
 }
 
 .s-durata{
-    padding-bottom: 50px;
+    padding-bottom: 3vw;
 }
 
 .price li{
@@ -131,13 +131,13 @@ label{
 
 
 .line{
-    padding-top: 40px;
+    padding-top: 4vw;
     width: 20%;
     border-bottom: 1px solid lightgray;
 }
 
 .price h4{
-    padding: 30px 0 30px 0;
+    padding: 3vw 0;
 }
 
 .enterpise h3{
@@ -230,7 +230,7 @@ label{
 /*squares*/
 
 .squares-section{
-    margin-top: 100px;
+    margin-top: 5vw;
     display: flex;
 }
 
