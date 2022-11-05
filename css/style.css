@@ -43,6 +43,10 @@ header li{
     padding-top: 150px;
 }
 
+.jumbo-padding-col30{
+    padding: 10px 3vw 10px 30px;
+}
+
 
 
 .jumbo .container{
@@ -57,7 +61,7 @@ header li{
 
 .jumbo p{
     font-size: 1vw;
-    margin-bottom: 30px;
+    margin-bottom: 3vw;
 }
 
 .jumbo span{
@@ -67,7 +71,7 @@ header li{
 }
 
 .jumbo i{
-    margin-top: 80px;
+    margin-top: 1vw;
     font-size: 3vw;
 }
 
@@ -179,6 +183,10 @@ label{
     text-decoration: none;
     font-size: 1vw;
     color: black;
+}
+
+.partener-padding{
+    padding: 40px 0 0 30px;
 }
 
 /*tools*/
@@ -309,6 +317,21 @@ label{
     padding: 1vw 0 2vw 0;
 }
 
+/*free-trial*/
+.free-trial{
+    background-color: #b4d0e7;
+}
+
+.free-trial .container{
+    padding: 50px 0 50px 0;
+}
+
+.free-trial h2{
+    color: #6d2130;
+    font-size: 2vw;
+    padding-right: 8vw;
+}
+
 
 
 
@@ -336,15 +359,7 @@ header .col-50{
 
 }
 
-.col-30{
-    width: 30%;
-    padding: 10px 30px 10px 30px;
 
-}
-
-.col-70{
-    width: 70%;
-}
 
 .button-blue{
     padding: 10px 0.3vw 10px 0.3vw ;
@@ -352,6 +367,15 @@ header .col-50{
     background-color:#0061ff;
     text-decoration: none;
     font-size: 1vw;
+}
+
+.button-white{
+    padding: 10px 0.5vw 10px 0.5vw ;
+    color: black;
+    background-color:white;
+    text-decoration: none;
+    font-size: 1vw;
+
 }
 
 .title-33{
@@ -366,13 +390,7 @@ header .col-50{
     display: inline;
 }
 
-.col-33{
-   border-left: 1px solid grey;
-   border-right: 1px solid grey;
-   border-bottom: 1px solid grey;
-    width: calc(90%/3);
-    padding: 10px 0 10px 20px;
-}
+
 
 .title-100{
     border: 1px solid grey;
@@ -390,15 +408,12 @@ header .col-50{
     border-left: 1px solid grey;
     border-right: 1px solid grey;
     border-bottom: 1px solid grey;
-     width: 100%;
-     padding: 30px 0 10px 20px;
-     position: relative;
+    width: 100%;
+    padding: 30px 0 10px 20px;
+    position: relative;
 }
 
-.col-30{
-    width: calc(90%/3);
 
-}
 
 .price .row{
     display: flex;
@@ -414,6 +429,21 @@ ul{
     color: blue;
 }
 
+.col-price-attibute{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px 0 10px 20px;
+}
+
+
+.col-30{
+    width: 30%;
+}
+
+.col-70{
+    width: 70%;
+}
 
 .col-60{
     width: 60%;
@@ -421,8 +451,8 @@ ul{
 
 .col-40{
     width: 40%;
-    padding: 40px 0 0 30px;
 }
+
 
 main img{
     width: 100%;
