@@ -44,7 +44,7 @@ header li{
 }
 
 .jumbo-padding-col30{
-    padding: 10px 3vw 10px 30px;
+    padding: 10px 3vw 10px 0;
 }
 
 
@@ -111,8 +111,7 @@ label{
 }
 
 .price li{
-    padding-bottom: 15px;
-    padding-right: 60px;
+    padding-right: 3vw;
 }
 
 
@@ -352,7 +351,34 @@ label{
 
 .faq span{
     font-weight: bold;
+    font-size: 1vw;
 }
+
+
+/*footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    height: 30vw;
+}
+
+.footer-cont{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 3vw;
+    font-size: 1vw;
+}
+
+footer h4{
+    font-size: 1.5vw;
+    padding-bottom: 2vw;
+}
+
+.language{
+    padding-top:  3vw; 
+}
+
    
 
 
@@ -447,6 +473,10 @@ ul{
     list-style-type: none;
 }
 
+li{
+    padding-bottom: 1vw;
+}
+
 .blue{
     color: blue;
 }
@@ -473,6 +503,10 @@ ul{
 
 .col-40{
     width: 40%;
+}
+
+.col-20{
+    width: 20%;
 }
 
 
