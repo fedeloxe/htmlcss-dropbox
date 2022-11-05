@@ -43,9 +43,7 @@ header li{
     padding-top: 150px;
 }
 
-.jumbo img{
-    width: 100%;
-}
+
 
 .jumbo .container{
     width: 70%;
@@ -76,7 +74,6 @@ header li{
 /*section1 price plan*/
 
 .price .container{
-    width: 60%;
     margin: 200px auto;
     font-size: 1vw;
 }
@@ -128,9 +125,7 @@ label{
     display: inline;
 }
 
-.blue{
-    color: blue;
-}
+
 
 .line{
     padding-top: 40px;
@@ -164,9 +159,35 @@ label{
     padding-right: 450px;
 }
 
+/*partner*/
+
+.partner h3{
+    font-size: 1.5vw;
+    margin-bottom: 30px;
+}
+
+.partner p{
+    font-size: 1vw;
+    margin-bottom: 90px;
+}
+
+.button-border{
+    border: 1px solid black;
+    padding: 10px 15px 10px 15px ;
+    text-decoration: none;
+    font-size: 1vw;
+    color: black;
+}
+
+
 
 
 /*attribute*/
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
 
 .row{
     display: flex;
@@ -249,4 +270,21 @@ header .col-50{
 
 ul{
     list-style-type: none;
+}
+
+.blue{
+    color: blue;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-40{
+    width: 40%;
+    padding:40px 95px 0 30px;
+}
+
+main img{
+    width: 100%;
 }
