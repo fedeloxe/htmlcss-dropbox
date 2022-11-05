@@ -156,10 +156,11 @@ label{
 
 .enterpise p{
     font-size: 0.8vw;
-    padding-right: 450px;
+    padding-right: 30vw
 }
 
 /*partner*/
+
 
 .partner h3{
     font-size: 1.5vw;
@@ -168,7 +169,7 @@ label{
 
 .partner p{
     font-size: 1vw;
-    margin-bottom: 90px;
+    margin-bottom: 5vw
 }
 
 .button-border{
@@ -178,6 +179,31 @@ label{
     font-size: 1vw;
     color: black;
 }
+
+/*tools*/
+
+.tools{
+    margin-top: 50px
+}
+
+.tools h2{
+    margin-top;: 50px ;
+    font-size: 2vw;
+}
+.tools .row{
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.tools h3{
+   margin: 20px 0 20px 0px;
+   font-size: 1.2vw;
+}
+
+.tools p{
+    font-size: 0.8vw;
+}
+
 
 
 
@@ -206,6 +232,7 @@ header .col-50{
 
 .col-30{
     width: 30%;
+    padding: 10px 30px 10px 30px;
 
 }
 
@@ -214,7 +241,7 @@ header .col-50{
 }
 
 .button-blue{
-    padding: 10px 15px 10px 15px ;
+    padding: 10px 0.3vw 10px 0.3vw ;
     color: white;
     background-color:#0061ff;
     text-decoration: none;
@@ -262,6 +289,11 @@ header .col-50{
      position: relative;
 }
 
+.col-30{
+    width: calc(90%/3);
+
+}
+
 .price .row{
     display: flex;
     justify-content: space-between;
@@ -282,7 +314,7 @@ ul{
 
 .col-40{
     width: 40%;
-    padding:40px 95px 0 30px;
+    padding: 40px 0 0 30px;
 }
 
 main img{
