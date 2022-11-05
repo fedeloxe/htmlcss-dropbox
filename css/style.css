@@ -78,6 +78,7 @@ header li{
 .price .container{
     width: 60%;
     margin: 200px auto;
+    font-size: 1vw;
 }
 
 .price h2{
@@ -88,6 +89,58 @@ header li{
 label{
     margin-right: 20px;
 }
+
+.price h3{
+    padding-bottom: 20px;
+    font-size: 2vw;
+}
+
+
+.price span{
+    display: block; 
+}
+
+.price .s-price{
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.s-durata{
+    padding-bottom: 50px;
+}
+
+.price li{
+    padding-bottom: 15px;
+}
+
+
+
+.price ul{
+    padding-bottom: 40px;
+}
+
+.price .buy-now{
+    padding-top: 30px;
+}
+
+.buy-now span{
+    display: inline;
+}
+
+.blue{
+    color: blue;
+}
+
+.line{
+    padding-top: 40px;
+    width: 20%;
+    border-bottom: 1px solid lightgray;
+}
+
+.price h4{
+    padding: 30px 0 30px 0;
+}
+
 
 
 /*attribute*/
@@ -122,4 +175,32 @@ header .col-50{
     background-color:#0061ff;
     text-decoration: none;
     font-size: 1vw;
+}
+
+.title{
+    border: 1px solid grey;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    width: calc(90%/3);
+}
+
+.col-33{
+   border-left: 1px solid grey;
+   border-right: 1px solid grey;
+   border-bottom: 1px solid grey;
+    width: calc(90%/3);
+    padding: 10px 0 10px 20px;
+
+}
+
+
+.price .row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul{
+    list-style-type: none;
 }
