@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 /*header*/
@@ -14,6 +15,7 @@ header .container{
     z-index: 1;
     position:fixed;
     background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 1);
     
 }
 
@@ -75,6 +77,7 @@ h1{
 }
 
 .jumbo i{
+    color: black;
     margin-top: 1vw;
     font-size: 3vw;
 }
@@ -197,12 +200,7 @@ label{
     margin-bottom: 5vw
 }
 
-.button-border{
-    border: 1px solid black;
-    padding: 10px 15px 10px 15px ;
-    text-decoration: none;
-    color: black;
-}
+
 
 .partener-padding{
     padding: 40px 0 0 30px;
@@ -418,11 +416,48 @@ footer h4{
 
 }
 
+.button-border{
+    border: 1px solid black;
+    padding: 10px 15px 10px 15px ;
+    text-decoration: none;
+    color: black;
+}
+
+.button-blue:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.button-white:hover, .button-border:hover{
+    background-color: rgb(194, 194, 194);
+    transition: 0.5s;
+}
+
 .line{
     padding-top: 4vw;
     width: 20%;
     border-bottom: 1px solid lightgray;
 }
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu{
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);
+    background-color: white;
+    padding: .75rem ;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 1);
+    opacity: 0;
+}
+
+.dropdown-menu:hover{
+    opacity: 1;
+}
+
 
 .f-size-1vw{
     font-size: 1vw;
